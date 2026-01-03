@@ -9,7 +9,7 @@
 
 # print(fib(10))
 
-def fib:
+def fib():
     current, nxt = 0, 1
     while True:
         current, nxt = nxt, current + nxt
