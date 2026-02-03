@@ -1,8 +1,6 @@
 import asyncio
 import datetime
-
 import colorama
-
 
 def main():
     lim = 250_000

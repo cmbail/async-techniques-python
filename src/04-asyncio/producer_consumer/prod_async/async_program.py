@@ -1,9 +1,7 @@
 import asyncio
 import datetime
 import random
-
 import colorama
-
 
 def main():
     # Changed this from the video due to changes in Python 3.10:
@@ -33,7 +31,6 @@ async def generate_data(num: int, data: asyncio.Queue):
 
         print(colorama.Fore.YELLOW + f' -- generated item {idx}', flush=True)
         await asyncio.sleep(random.random() + 0.5)
-
 
 async def process_data(num: int, data: asyncio.Queue):
     processed = 0
